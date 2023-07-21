@@ -36,7 +36,7 @@ public class Stcalc {
             else {
                 int number = Integer.parseInt(data[1]);
                 if (number < 1 || number > 10) {
-                    throw new Exception("Число должно быть больше 0 и меньше 11");
+                    throw new Exception("Число может быть только от 1 до 10 включительно");
                 }
             }
         }
